@@ -1,0 +1,15 @@
+.maybeLikeTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .64rem;
+}
+.maybeLikeTitle i{
+    font-size: .16rem;
+    color: #eb3767;
+    margin-right: 10px;
+}
+.maybeLikeTitle h3{
+    font-size: .16rem;
+    color: #000000;
+}

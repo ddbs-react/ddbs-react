@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	height:100%;
+	/* position: relative; */
+}
+body{
+	font-family: "微软雅黑",Arial;
+    color:#333;
+    /* height:100%;
+	display:-webkit-flex;
+	flex-direction:column; */
+}
+ul,ol{
+	list-style:none;
+}	
+img{
+	border: 0;
+	display:block;
+}
+a{
+	text-decoration: none;	
+}
+em,i{
+    font-style: normal;
+    display: block;
+}
+
+
+
+
+#root{
+    height:100%;
+}
+.App{
+    height: 100%;
+}
+/* 头部 */
+.flHeader{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #aeb2b5;
+}
+.flHead{
+    padding:.07rem .08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.flHeadLeft{
+    width: 10%;
+    line-height:.32rem; 
+}
+
+.flHeadLeft .flsaoyisao{
+  font-size: .24rem;
+
+  color: #000;
+}
+.flHeadCen{
+    width: 75%;
+    height: .32rem;
+    background: #f8f3f7;
+    border-radius: .15rem;
+    display: flex;
+    line-height: .32rem;
+    padding:0 .16rem;
+    justify-content: space-between;
+}
+.flHeadCen .flsousuo{
+    font-size: .20rem;
+    color: #bfc2c8;
+
+}
+.flHeadCen .flHeadInput{
+    border: none;
+    outline: none;
+    background: #f8f3f7;
+}
+.flHeadRight{
+    width: 10%;
+    text-align: right;
+    line-height:.32rem; 
+}
+.flHeadRight .flXiaoxi{ 
+    font-size: .24rem;
+    color: #000;
+}
+/* 内容部分 */
+
+.bigFeiLei{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.flList{
+    width: 100%;
+    height: 100%;
+    background:#eff8ff;
+    flex:1;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* 左边部分 */
+.flNav{
+    width: 20%;
+    height: 100%;
+    overflow-y: auto;
+}
+.flNavLi{
+    width: 100%;
+    height: .58rem;
+    text-align: center;
+    line-height: .58rem;
+}
+.flNavSpan{
+    font-size:.12rem;
+    background: #fff;
+    display: block;
+}
+/* 右边列表部分 */
+.flListRight{
+    height: 100%;
+    width: 77%;
+    position: relative;
+    overflow-y: auto;
+}
+.flListri{
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.flbigImg img{
+    width: 100%;
+    height: 1.08rem;
+}
+.flJinRu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .08rem;
+}
+.flJinRuLef{
+    width:48%;
+    background: #fff;
+    padding: .12rem 0;
+    display: flex;;
+    justify-content: space-around;
+    line-height: .23rem;
+}
+.JinRuH4{
+    font-size: .13rem;
+    color:#0c0c0c;
+}
+.TeJiaP{
+    font-size:.12rem; 
+    color:#989898;
+}
+.JinRuRight .fliconyouxiang{
+    line-height: .47rem;
+    color: #0c0c0c;
+}
+.flBang{
+    background: #fff;
+    margin-top: .08rem;
+}
+.flBang{
+    padding: .17rem .14rem;
+}
+.flBangDanTit{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.BangDanH3{
+    font-size: .15rem;
+    color: #0c0c0c;
+}
+.BangDanUl{
+    margin-top: .14rem;
+    display: flex;
+    justify-content: space-between;
+}
+.BangDanLi{
+    width: 31%;
+    text-align: center;
+}
+.BangImg{
+    width: .44rem;
+    height: .58rem;
+    margin: 0 auto;
+}
+.BangDanSpan{
+    font-size: .12rem;
+    color: #404040;
+    display: block;
+    margin-top: .07rem;
+}
+.FlBangTitLeft{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+.FlBangTitLeft1{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+.FlBangTitLeft .flyou{
+    font-weight: 1000;
+    font-size: .13rem;
+    color: #0c0c0c;
+    margin: auto 0;
+}
+.FlBangTitRight{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.FlBangTitRight .flyouc{
+    font-weight: 1000;
+    font-size: .13rem;
+    color: #6b6b6b;
+    margin: auto 0;
+}
+.BangDanH3c{
+    font-size: .15rem;
+    color: #6b6b6b;
+}
+.BangDanUl1{
+    margin-top: .14rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f4f4f4;
+    padding: .11rem 0;
+}
+.BangDanUl2{
+    /* margin-top: .14rem; */
+    padding: .11rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.BangDanLi{
+    width: 31%;
+    text-align: center;
+}
+.BangDanLiHot{
+    position: relative;
+}
+.flHot{
+    position: absolute;
+    width: .23rem;
+    height: .09rem;
+    right: 0px;
+    top: 2px;
+}
+.BangDanSpana{
+    /* /* width: 31%; */
+    /* text-align: center;  */
+    /* display: inline-block; */
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+.BangDanSpan1{
+    font-size: .12rem;
+    color: #404040;
+    display: block;
+    margin-top: .07rem;
+}
+/* .BangDanUl2 .BangDanLi1{
+    width: 31%;
+    display:flex;
+    justify-content: space-around;
+} */

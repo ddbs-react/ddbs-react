@@ -1,0 +1,124 @@
+{
+    "cardList":[
+        {
+            "goodsMaxNum":0,
+            "goodsLabel":"礼券"
+        },
+        {
+            "goodsMaxNum":1,
+            "goodsLabel":"银铃铛"
+        },
+        {
+            "goodsMaxNum":0,
+            "goodsLabel":"礼品卡"
+        },
+        {
+            "goodsMaxNum":2,
+            "goodsLabel":"余额"
+        },
+        {
+            "goodsMaxNum":3,
+            "goodsLabel":"金铃铛"
+        }
+
+    ],
+    "bookPingList":[
+        {
+           "goodsPic":"../assets/img/book01.jpg",
+           "goodsDes":"精彩书评",
+           "goodsAuthor":"汇聚各路犀利点评"
+           
+        },
+        {
+            "goodsPic":"../assets/img/book02.jpg",
+            "goodsDes":"发布购物评论",
+            "goodsAuthor":"礼券若干，自动发放"
+        },
+        {
+           
+            "goodsPic":"../assets/img/book03.jpg",
+            "goodsDes":"发布购物评论",
+            "goodsAuthor":"礼券若干，自动发放"
+            
+        }
+    ],
+    "baoMaList":[
+        {
+            "goodsPic": "require('../../../static/img/2.png')",
+            "goodsPrice": "19.9"
+        },
+        {
+            "goodsPic": "require('../../../static/img/2.png')",
+            "goodsPrice": "20.9"
+        },
+        {
+            "goodsPic": "require('../../../static/img/2.png')",
+            "goodsPrice": "123.9"
+        },
+        {
+            "goodsPic": "require('../../../static/img/2.png')",
+            "goodsPrice": "21.56"
+        },
+        {
+            "goodsPic": "require('../../../static/img/2.png')",
+            "goodsPrice": "51.21"
+        }
+           
+    ],
+    "reMenList":[
+        {
+            "goodsDes": "红与黑"
+        },
+        {
+            "goodsDes": "清少纳言,周作人"
+        },
+        {
+            "goodsDes": "清少纳言"
+        },
+        {
+            "goodsDes": "清少纳言"
+        }
+    ],
+    "caiYouLikeList":[
+        {
+            "goodsPic":"../../../static/img/1.png",
+            "goodsPressTime":"2017年(新版)",
+            "goodsPress":"当当自营",
+            "goodsISBN":"包邮",
+            "goodsWordCount":"满减",
+            "goodsPrice":"25.3"           
+        },
+        {
+            "goodsPic":"../../../static/img/1.png",
+            "goodsPressTime":"2019年(新版)",
+            "goodsPress":"当当自营",
+            "goodsISBN":"邮费10元",
+            "goodsWordCount":"满减",
+            "goodsPrice":"99"           
+        },
+        {
+            "goodsPic":"../../../static/img/1.png",
+            "goodsPressTime":"2017年(新版)",
+            "goodsPress":"当当自营",
+            "goodsISBN":"包邮",
+            "goodsWordCount":"满减",
+            "goodsPrice":"18.00"           
+        },
+        {
+            "goodsPic":"../../../static/img/1.png",
+            "goodsPressTime":"2007年(新版)",
+            "goodsPress":"",
+            "goodsISBN":"包邮",
+            "goodsWordCount":"券",
+            "goodsPrice":"37.4"           
+        },
+        {
+            "goodsPic":"../../../static/img/1.png",
+            "goodsPressTime":"2002年(新版)",
+            "goodsPress":"",
+            "goodsISBN":"包邮",
+            "goodsWordCount":"券",
+            "goodsPrice":"50.23"           
+        }
+    ]   
+}

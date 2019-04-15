@@ -1,0 +1,49 @@
+.payMoney{
+    height: .57rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allSelected{
+    display: flex;
+    margin-left: .15rem;
+}
+.allSelected .allSelectedBtn{
+    width: .2rem;
+    height: .2rem;
+    border-radius: .3rem;
+    background: url(../img/xuanzhong.png) center;
+    background-size: 100%;
+    margin-right: 10px;
+    display: flex;
+}
+.allSelected p{
+    font-size: .14rem;
+    color: #050505;
+}
+.totalMoney{
+    display: flex;
+}
+.totalMoneyWord{
+    font-size: .13rem;
+    color: #191919;
+}
+.totalMoneyNum{
+    font-size: .15rem;
+    color: #2a2a2a;
+    font-weight: 700;
+}
+.goPay{
+    width: 1.22rem;
+    height: .46rem;
+    background: none;
+    background-color: #f72816;
+    color: #fff;
+    font-size: .15rem;
+    text-align: center;
+    line-height: .46rem;
+    border: 1px solid #f03d2f;
+    outline: none;
+    border-radius: .21rem;
+    margin-right: 10px;
+}

@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 26.67vw;
+}
+body{
+    font-family:"微软雅黑";
+    background-color: #f7f7f7;
+
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:0;
+    display: block;
+}
+/*头部*/
+.dangGoodsDetailHeader{
+    width: 100%;
+    background-color: white;
+}
+.dangGoodsDetailHeaderBox{
+    width: 100%;
+    padding: .1rem .15rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+.dangGoodsDetailHeaderLeft{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.dangGoodsDetailHeaderLeft .iconfanhui{
+    font-size: .2rem;
+    color: #222222;
+}
+.dangGoodsDetailHeaderCenter{
+    width: 100%;
+}
+.dangGoodsDetailHeaderCenter h1{
+    font-size: .2rem;
+    font-weight: 500;
+    color:#212121;
+}
+.dangGoodsDetailHeaderRight{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: .05rem;
+}
+.dangGoodsDetailHeaderRight .iconshu{
+    font-size: .2rem;
+    margin-right: .1rem;
+}
+.dangGoodsDetailHeaderRight .icongengduo{
+    font-size: .2rem;
+}
+/*商品*/
+.dangGoodsDetailProduct{
+    width: 100%;
+    background-color: white;
+}
+.dangGoodsDetailProductBox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: .2rem .1rem .15rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailProductLeft{
+    display: flex;
+    padding-right: .1rem;
+}
+.dangGoodsDetailProductLeft img{
+    width: 1.1rem;
+    height: 1.82rem;
+}
+.dangGoodsDetailProductCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dangGoodsDetailProductDes {
+    width: 100%;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+.dangGoodsDetailProductDes p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: .15rem;
+    color: #343434;
+}
+.dangGoodsDetailProductDes span{
+    padding: 6px;
+    font-size: .08rem;
+    border: 1px solid #56ade0;
+    background-color: #e0f5ff;
+    text-align: center;
+    display: block;
+    width: .3rem;
+    height: .12rem;
+    border-radius: 5px;
+    margin-top: .1rem;
+}
+.dangGoodsDetailProductAuthor{
+    width: 100%;
+    margin: .1rem 0;
+}
+.dangGoodsDetailProductAuthor h5{
+    font-size: .1rem;
+    color: #a8aab3;
+}
+.dangGoodsDetailProductDiscuss{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .07rem;
+}
+.dangGoodsDetailProductFivestar{
+    display: flex;
+    align-items: center;
+}
+.dangGoodsDetailProductFivestar .iconxingxing{
+    font-size: .12rem;
+    color: #fecf44;
+}
+.dangGoodsDetailProductDiscuss span{
+    display: block;
+    font-size: .12rem;
+    color: #f0b14f;
+    margin:0 .05rem ;
+}
+.dangGoodsDetailProductDiscuss p{
+    font-size: .12rem;
+    color: #9a9a9a;
+}
+.dangGoodsDetailProductPrice{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.dangGoodsDetailProductPrice h6{
+    font-size: .12rem;
+    color: #f98c1e;
+    display: flex;
+}
+.dangGoodsDetailProductPrice span{
+    display: block;
+    font-size: .15rem;
+    margin: 0 .1rem 0 .05rem;
+    color: #f98c1e;
+}
+.dangGoodsDetailProductPrice p{
+    font-size: .13rem;
+    color: #c3c3c3;
+    text-decoration-line: line-through;
+}
+.dangGoodsDetailProductSmallicon{
+    display: flex;
+    width: 100%;
+    padding-bottom: .1rem;
+}
+.dangGoodsDetailProductSmalliconCommon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.dangGoodsDetailProductSmalliconCommon .icondaipingjia{
+    font-size: .2rem;
+    color: #606060;
+}
+.dangGoodsDetailProductSmalliconCommon p{
+    font-size: .1rem;
+    color: #606060;
+    margin-top: .05rem;
+}
+.dangGoodsDetailProductSmalliconCommon .iconxin{
+    font-size: .2rem;
+    color: #606060;
+}
+.dangGoodsDetailProductSmalliconCommon .iconfenxiang{
+    font-size: .2rem;
+    color: #606060;
+}
+/*banner*/
+.dangGoodsDetailBanner{
+    width: 100%;
+    background-color: white;
+    margin-top: .08rem;
+}
+.dangGoodsDetailBannerBox{
+    width: 100%;
+    padding: .15rem 0 .15rem.1rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailBannerCon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.dangGoodsDetailBannerImg{
+    margin-right: .1rem;
+    width: 100%;
+}
+ .dangGoodsDetailBannerImg img{
+     width: 100%;
+     height: 100%;
+ }
+.line{
+    height: 1px;
+    background-color: #969896;
+    width: 100%;
+    margin: .1rem 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dangGoodsDetailBannerLimit{
+    display: flex;
+    align-items: center;
+    padding: .1rem 0;
+}
+.dangGoodsDetailBannerLimit img{
+    width: .42rem;
+    height: .15rem;
+    margin-right: .1rem;
+}
+.dangGoodsDetailBannerLimit p{
+    font-size: .1rem;
+    color: #868686;
+}
+.dangGoodsDetailBannerLimit span{
+    font-size: .1rem;
+    color: #868686;
+    display: block;
+}
+.dangGoodsDetailBannerExamine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dangGoodsDetailBannerExamineP p{
+    font-size: .15rem;
+    color: #222222;
+}
+.dangGoodsDetailBannerExamineSpan{
+    font-size: .1rem;
+    color: #9c9c9c;
+    display: flex;
+    align-items: center;
+    margin-right: .1rem;
+}
+.dangGoodsDetailBannerExamineSpan span{
+    display: block;
+    margin-right: 5px;
+}
+.dangGoodsDetailBannerExamineSpan .iconyouxiang{
+    font-size: .1rem;
+}
+/*导航栏*/
+.dangGoodsDetailNav{
+    width: 100%;
+    background-color: white;
+    margin-top: .1rem;
+    padding-bottom: .2rem;
+}
+.dangGoodsDetailNavBox{
+    width: 100%;
+    padding: .1rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailNavUl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e6e6e6;
+}
+.dangGoodsDetailNavUl li{
+    font-size: .15rem;
+    padding: 0 .15rem .12rem;
+}
+.dangGoodsDetailNavUl li:nth-of-type(1){
+    color: #e5504c;
+    border-bottom: 1px solid #e5504c;
+}
+.dangGoodsDetailNavCommon{
+    width: 100%;
+}
+.dangGoodsDetailNavTitle{
+    width: 100%;
+}
+.dangGoodsDetailNavTitle h3{
+    font-size: .13rem;
+    color: #222222;
+    margin: .1rem 0;
+    font-weight: 500;
+}
+.dangGoodsDetailNavCon{
+    width: 100%;
+}
+.dangGoodsDetailNavCon p{
+    font-size: .13rem;
+    color: #515151;
+    text-indent: .26rem;
+}
+
+/*书籍说明*/
+.dangGoodsDetailNavePlain{
+    width: 100%;
+    background-color: white;
+    margin-top: .1rem;
+
+}
+.dangGoodsDetailNavePlainBox{
+    width: 100%;
+    padding: .15rem 0 .1rem .1rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailNavePlainCommon{
+    width: 100%;
+    margin-bottom: .05rem;
+
+}
+.dangGoodsDetailNavePlainCon{
+    display: flex;
+    justify-content: space-between;
+}
+.dangGoodsDetailNavePlainLeft{
+    display: flex;
+    justify-content: flex-start;
+    font-size: .15rem;
+}
+.dangGoodsDetailNavePlainLeft p{
+    margin-right: .1rem;
+    color: #8d8d8d;
+
+}
+.dangGoodsDetailNavePlainLeft span{
+    display: block;
+    color: #222222;
+}
+.dangGoodsDetailNavePlainRight{
+    display: flex;
+}
+.dangGoodsDetailNavePlainRight .iconyouxiang{
+    font-size: .15rem;
+    color: #8d8d8d;
+}
+
+/*推荐*/
+.dangGoodsDetailRecommend{
+    width: 100%;
+    background-color: white;
+    margin-top: .1rem;
+}
+.dangGoodsDetailRecommendBox{
+    width: 100%;
+    padding: .15rem .1rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailRecommendHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.dangGoodsDetailRecommendHeaderLeft {
+    display: flex;
+}
+.dangGoodsDetailRecommendHeaderLeft h3{
+    font-size: .15rem;
+    color: #222222;
+    font-weight: 500;
+}
+.dangGoodsDetailRecommendHeaderRight{
+    display: flex;
+    font-size: .12rem;
+    color: #959595;
+    align-items: center;
+}
+.dangGoodsDetailRecommendHeaderRight .iconrefresh_light{
+    font-size: .15rem;
+    margin-right: 5px;
+}
+.dangGoodsDetailRecommendHeaderRight p{
+    margin-right: 5px;
+}
+.dangGoodsDetailRecommendCon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: .1rem;
+}
+.dangGoodsDetailRecommendConCommon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.dangGoodsDetailRecommendConCommon img{
+    width: 0.85rem;
+    height: 1.25rem;
+}
+.dangGoodsDetailRecommendConCommon p{
+    font-size: .05rem;
+    color: #222222;
+    width: 0.55rem;
+    margin: 5px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;  /*要显示的行数*/
+    -webkit-box-orient: vertical;
+}
+.dangGoodsDetailRecommendConCommon span{
+    font-size: .05rem;
+    color: #929292;
+}
+
+/*图书信息*/
+.dangGoodsDetailInformation{
+    width: 100%;
+    margin-top: .1rem;
+    border-bottom: 1px solid #969896;
+    background-color: white;
+    padding-bottom: .5rem;
+}
+.dangGoodsDetailInformationBox{
+    width: 100%;
+    padding: .15rem .1rem;
+    box-sizing: border-box;
+}
+.dangGoodsDetailInformationTitle{
+    padding-bottom: .05rem;
+}
+.dangGoodsDetailInformationTitle h3{
+    font-size: .16rem;
+    color: #222222;
+    font-weight: 500;
+}
+.dangGoodsDetailInformationCon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.dangGoodsDetailInformationCon p{
+    font-size: .13rem;
+    color: #5b5b5b;
+    margin: 3px 0;
+}
+
+/*底部*/
+.dangGoodsDetailFooter{
+    width: 100%;
+    height: .5rem;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.dangGoodsDetailFooterBox{
+    width: 100%;
+    box-sizing: border-box;
+}
+.dangGoodsDetailFooterCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dangGoodsDetailFooterIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #7e7e7e;
+    box-sizing: border-box;
+    margin:0 .1rem ;
+}
+/*.iconlingquanzhongxin ::before{*/
+    /*content: "";*/
+    /*height: .35rem;*/
+    /*width: 1px;*/
+    /*background-color: #969896;*/
+    /*display: inline-block;*/
+    /*overflow: visible;*/
+/*}*/
+.dangGoodsDetailFooterIcon p{
+    font-size: .1rem;
+}
+.icongouwuche{
+    font-size: .25rem;
+}
+.iconlingquanzhongxin{
+    font-size: .25rem;
+
+}
+.dangGoodsDetailFooterButton{
+    display: flex;
+}
+.dangGoodsDetailFooterButton button{
+    width: 1.25rem;
+    height: .5rem;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .15rem;
+}
+.dangGoodsDetailFooterButton button:nth-of-type(1){
+    background-color: #ffca43;
+}
+.dangGoodsDetailFooterButton button:nth-of-type(2){
+    background-color: #ff4e4a;
+}

@@ -1,0 +1,24 @@
+.shopListTitle{
+    height: .47rem;
+    display: flex;
+    align-items: center;
+    padding: 0 .15rem;
+}
+.shopListTitle .shopSelected{
+    width: .2rem;
+    height: .2rem;
+    border-radius: .3rem;
+    background: url(../img/xuanzhong.png) center;
+    background-size: 100%;
+    margin-right: 10px;
+}
+.dangdangLogo{
+    width: .17rem;
+    height: .17rem;
+    margin-right: 12px;
+}
+.listTitleMain{
+    font-size: .15rem;
+    color: #1e1f1f;
+    font-weight: 600;
+}

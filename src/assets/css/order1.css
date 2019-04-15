@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;padding:0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	height:100%;
+    position: relative;
+    background: #fffbff;
+}
+body{
+	font-family: "微软雅黑",Arial;
+    background:#f6f6f6;
+   
+	/* display:-webkit-flex;
+	flex-direction:column; */
+}
+ul,ol{
+	list-style:none;
+}	
+img{
+	border: 0;
+	display:block;
+}
+a{
+	text-decoration: none;	
+}
+em,i{
+	font-style: normal;
+}
+
+.dangOrderHeader{
+    height:1.05rem;
+    background: #fff;
+    border-bottom-left-radius:.15rem;
+    border-bottom-right-radius:.15rem;
+}
+.header-me{
+    font-size: .18rem;
+    text-align: center;
+    line-height: .5rem;
+    letter-spacing:.01rem;
+}
+#header-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#root{
+    height:100%;
+}
+.App{
+    height:100%;
+}
+.orderQ{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.dangOrderSecBox{
+    flex:1;
+    overflow-y: auto;
+}
+#header-ul li{
+    font-size: .15rem;
+    line-height:.54rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-line{
+    height:3px;
+    background: #00d6a7;
+    display: none;
+    border-radius: 2px;
+}
+.all{
+    display: block;
+}
+
+/* .dangOrderSecBox{
+    position: relative;
+    flex:1;
+    overflow-y: auto;
+}
+
+.dangOrderSec{
+    position: absolute;
+    left: 0;
+    top:0;
+} */
+.box1{
+    z-index:9;
+}
+.dangOrderSection{
+    background: #fff;
+    border-radius:.15rem;
+    margin-top:12px;
+    padding-left:.12rem;
+    padding-right:.12rem;
+}
+.section-top{
+    height:.47rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-top-box{
+    display: flex;
+    align-items: center;
+}
+.section-top-img1{
+    width:.25rem;
+    height:.25rem;
+    border-radius: 50%;
+    margin-right:.07rem;
+}
+.earth{
+    font-size: .15rem;
+    font-weight: 600;
+}
+.over{
+    font-size: .14rem;
+    color:#a4a4a4;
+    margin-right:.12rem;
+}
+.section-down{
+    display: flex;
+}
+.sec-down-left img{
+    width:.53rem;
+    height:.53rem;
+    border-radius: .1rem;
+    margin-top:.13rem;
+}
+.sec-down-right p{
+    font-size: .15rem;
+    color:#a4a4a4;
+    margin-left:10px;
+    margin-top:.16rem;
+    line-height: .1rem;
+}
+.sec-down-right span{
+    margin-left:10px;
+}
+#discuss{
+    width:.77rem;
+    border:1px solid #a4a4a4;
+    border-radius: 10px;
+    text-align: center;
+    line-height: .32rem;
+    margin-left:2.15rem;
+    margin-bottom: .17rem;
+}

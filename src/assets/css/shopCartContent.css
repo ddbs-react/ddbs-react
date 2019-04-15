@@ -1,0 +1,12 @@
+.dangShopCartContent{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    background: #f8f3f7;
+    flex: 1;
+}
+.shengB{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

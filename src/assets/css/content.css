@@ -1,0 +1,10 @@
+.DangdangRecommendContent{
+	overflow-y: auto;
+	flex: 1;
+	overflow-x: hidden;
+}
+.DangdangRecommendContent-small{
+	background: #f8f3f7;
+	padding: 0.18rem;
+	box-sizing: border-box;
+}

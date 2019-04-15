@@ -1,0 +1,49 @@
+.maybeLikeProduct{
+    width: 1.72rem;
+    background: #fff;
+    padding-bottom: .18rem;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.maybeLikeProductPic{
+    width: 100%;
+    margin-bottom: 9px;
+}
+.maybeLikeProductDesc{
+    padding: 0 9px;
+}
+.maybeLikeProductDesc p{
+    font-size: 12px;
+    line-height: .15rem;
+    color: #191919;
+    margin-bottom: 5px;
+}
+.maybeLikeProductType{
+    display: flex;
+    margin-bottom: 10px;
+}
+.ziying{
+    width: .45rem;
+    height: .14rem;
+    border: 1px solid #d28f9d;
+    font-size: 10px;
+    text-align: center;
+    line-height: .14rem;
+    color: #f3292d;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+.xianshiqiang{
+    border-radius: 2px;
+    width: .35rem;
+    height: .15rem;
+    background: #ff2c3c;
+    font-size: 10px;
+    line-height: .15rem;
+    color: #fff;
+    text-align: center;
+}
+.maybeLikeProductMoney{
+    font-size: 12px;
+    color: #ed081d;
+}

@@ -1,0 +1,40 @@
+.footer{
+    height: .5rem;
+    border-top: 1px solid #dcdcdc;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .25rem;
+    text-align: center;
+}
+.footer i{
+    font-size: .25rem;
+    color: #4c4e5d;
+}
+.footer span{
+    font-size: 10px;
+    color: #3a3845;
+}
+.footerShopCart{
+    position: relative;
+}
+.footerShopCart i{
+    color: #e73c32;
+}
+.footerShopCart span{
+    color: #e73c32;
+}
+.footerProductNum{
+    width: .18rem;
+    height: .18rem;
+    border-radius: 50%;
+    background: #ff5f53;
+    color: #fff;
+    font-size: 6px;
+    text-align: center;
+    line-height: .18rem;
+    position: absolute;
+    right: -12px;
+    top: -2px;
+}

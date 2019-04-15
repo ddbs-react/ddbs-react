@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*css document*/
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 100px;
+
+    font-size:26.67vw; 
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    background: #fafafa;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border: 0;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+.dangzhuceHeader{
+    width:100%;
+    height:.55rem;
+    display: flex;
+    align-items: center;
+    padding-left:.13rem;
+    box-sizing: border-box;
+    margin-bottom: .15rem;
+}
+.zhuceFanhui{
+    width:.1rem;
+    height:.17rem;
+}
+
+
+/* sence */
+.dangzhuceSence{
+    width:100%;
+    height:2.72rem;
+    padding-left:.26rem;
+    padding-right:.26rem;
+    box-sizing: border-box;
+}
+.zhuceSenceH{
+    font-size:.18rem;
+}
+.zhuceSenceOne{
+    display:flex;
+    height:.6rem;
+    line-height:.6rem;
+    border-bottom:1px solid #e0e0e0;
+}
+.SenceOneInput{
+    width:100%;
+    font-size:.14rem;
+    border:none;
+    outline: none;
+    background-color: #fafafa;
+    margin-left:12px;
+}
+.zhuceSenceTwo{
+    height:.6rem;
+}
+.SenceTwoInput{
+    display: block;
+    width:100%;
+    height:.5rem;
+    color:white;
+    font-size:.18rem;
+    border:0;
+    outline: none;
+    border-radius: 6px;
+    background-color: #f7a9b2;
+    margin-top:.3rem;
+} 
+.zhuceSenceThree{
+    display:flex;
+    height:.4rem;
+    align-items: center;
+    font-size:.13rem;
+}
+.SenceThreeInput{
+    display: block;
+    width:.12rem;
+    height:.12rem;
+    border-radius: 3px;
+}
+.SenceThreeSpan1{
+    color:#9a9a9a;
+    margin-left:5px;
+}
+.SenceThreeSpan2{
+    color:black;
+}

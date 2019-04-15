@@ -1,0 +1,23 @@
+.allPageFootBox{
+    width: 100%;
+    height: .5rem;
+    background-color: #fffbff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .07rem;
+    box-sizing: border-box;
+}
+.allPageFootChldrenBox{
+    text-align: center;
+}
+.allPageFootChldrenBoxPic span{
+    display: block;
+    font-size: .21rem;
+    color: #99979f;
+}
+.allPageFootChldrenBoxName{
+    font-size: .1rem;
+    line-height: .22rem;
+    text-align: center;
+    color: #99979f;
+}

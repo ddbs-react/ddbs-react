@@ -1,0 +1,32 @@
+.dangShopCartHeader{
+    height: .47rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.dangShopCartHeaderTitle{
+    display: flex;
+}
+.dangShopCartHeaderTitle h2{
+    font-size: .18rem;
+    color: #000;
+    line-height: .18rem;
+    margin-right: 6px;
+}
+.addressPosition{
+    width: 12px;
+    height: .15rem;
+}
+.dangShopCartHeaderWrite{
+    display: flex;
+    margin-right: .15rem;
+}
+.dangShopCartHeaderWrite span{
+    font-size: .13rem;
+    color: #6b6b6b;
+    margin-right: .18rem;
+    margin-left: .62rem;
+}
+.dangShopCartHeaderWrite i{
+    font-size: .19rem;
+}

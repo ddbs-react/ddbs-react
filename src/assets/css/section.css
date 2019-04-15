@@ -1,0 +1,81 @@
+.DangdangRecommendContentSection{
+	background: #fff;
+	border-radius: 0.1rem;
+	margin-bottom: 0.2rem;
+}
+.DangdangRecommendContentSectionBox{
+	padding: 0.24rem 0.27rem 0.17rem 0.13rem;
+}
+.DangdangRecommendContentSectionBox-title{
+	display: flex;
+	margin-bottom: 0.24rem;
+}
+.DangdangRecommendContentSectionBox-left{
+	display: flex;
+	align-items: center;
+}
+.DangdangRecommendContentSectionBox-left-img img{
+	width: 0.34rem;
+	height: 0.28rem;
+}
+.DangdangRecommendContentSectionBox-right{
+	padding-left: 0.1rem;
+	width: 100%;
+}
+.DangdangRecommendContentSectionBox-right-text{
+	display: flex;
+	align-items: center;
+}
+.DangdangRecommendContentSectionBox-right-text h3{
+	font-size: 14px;
+	font-weight:500;
+	margin-right: 0.06rem;
+	line-height: 0.28rem;
+}
+.DangdangRecommendContentSectionBox-right-text span{
+	width: 0.2rem;
+	height: 0.1rem;
+	font-size: 0.06rem;
+	color: white;
+	padding: 0.02rem 0.05rem;
+	background: #fc546b;
+	border-radius: 0.05rem;
+	text-align: center;
+	line-height: 0.1rem;
+}
+.DangdangRecommendContentSectionBox-right-time{
+	font-size: 16px;
+	color: #bebdbd;
+}
+.DangdangRecommendContentSectionBox-left-P{
+	font-size: 0.14rem;
+	color: black;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 0.2rem;
+}
+.DangdangRecommendContent-bookUl{
+	display: flex;
+	justify-content: space-around;
+}
+.DangdangRecommendContent-bookUl li i{
+	font-size: 0.20rem;
+	color:#ffeaef;
+	position: absolute;
+	left: -10px;
+}
+.DangdangRecommendContent-bookUl li i span{
+	color: #da6c75;
+	position: absolute;
+	left: 6px;
+	top: 0;
+}
+.DangdangRecommendContent-bookUl li{
+	display: flex;
+	margin-right: 0.15rem;
+	position: relative;
+}
+.DangdangRecommendContent-bookUl li img{
+	height: 0.72rem;
+}
